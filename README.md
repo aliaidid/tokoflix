@@ -1,3 +1,11 @@
+Hi, My Name is Ali.
+
+I was use React & Javascript almost 5 Months, and i always want to upgrade my skill (Learning by Doing).
+
+And i Apply job in Tokopedia as Front End Developer, and this Project Test from Tokopedia.
+
+I was build this project in 3 days use all knowledge that i learned before.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

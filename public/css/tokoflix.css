@@ -1,0 +1,133 @@
+.hoverp:hover{
+    color : #469F45
+}
+
+.bcp{
+    background-color:#469F45
+}
+.cp{
+    color: #469F45
+}
+.bcb{
+    background-color: black
+}
+.bcw{
+    background-color: white
+}
+body{
+    background:url(https://www.predatorcues.com/wp-content/uploads/2014/01/bg-v5.jpg) repeat-x top center #fbfbfb;
+}
+.mrgl{
+    margin-left: 300px
+}
+* {
+box-sizing: border-box;
+}
+
+#myInput {
+background-image: url('/css/searchicon.png');
+background-position: 10px 12px;
+background-repeat: no-repeat;
+width: 100%;
+font-size: 16px;
+padding: 12px 20px 12px 40px;
+border: 1px solid #ddd;
+margin-bottom: 12px;
+}
+
+#myUL {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#myUL li a {
+border: 1px solid #ddd;
+margin-top: -1px; /* Prevent double borders */
+background-color: #f6f6f6;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+color: black;
+display: block
+}
+
+#myUL li a:hover:not(.header) {
+background-color: #eee;
+}
+.item-image-wrapper{
+    border: 1px solid #696969; 
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+.single-items{
+    position: relative;
+    height: 100;
+    width: 100
+}
+.iteminfo{
+    position: relative;
+}
+.iteminfo h2{
+    color: #469F45;
+    font-size: 24px; 
+    font-weight: 700;
+}
+.item-overlay{
+    background: #469F45;
+    top: 0; 
+    display: none;
+    height: 0;
+    position: absolute;-webkit-transition: height 500ms ease 0s;transition: height 500ms ease 0s;width: 100%;display: block;
+}
+.overlay-content{ 
+    bottom: 0;  
+    position: absolute; 
+    bottom: 0; 
+    text-align: center; 
+    width: 100%;
+}
+.item-overlay h2{
+    color: #fff;
+    font-size: 24px; 
+    font-weight: 700;
+}
+.item-overlay p{
+    font-size: 14.5px;
+    font-weight: 400; 
+    color: #fff;
+}
+.item-overlay, .add-to-cart{
+    background: #fff; 
+    border: 0 none; 
+    border-radius: 0; 
+    color:#469F45;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.choose{ 
+    border-top: 1px solid #F7F7F0;
+}
+.choose ul li a{
+    color: #B3AFA8;
+    font-size: 13px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.single-items:hover .item-overlay{
+    display: block;  
+    height: 100%;  
+    background:#469F45;
+}
+.overlay-content{
+    bottom: 0;
+    position: absolute; 
+    bottom: 0; 
+    text-align: center; 
+    width: 100%;
+}
+.iteminfo img{    
+    width: 100%;
+}
+
